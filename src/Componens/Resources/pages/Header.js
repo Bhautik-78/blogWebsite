@@ -4,7 +4,7 @@ import "../Styles.css"
 
 export const Header = () => {
     return (
-        <div className="container header">
+        <div className="container r-header">
             <div className="card">
                 <img src={header} alt="header" />
             </div>

@@ -34,16 +34,19 @@ export default function Navbar(props) {
     };
     const handleSupport = () =>{
         navigate('/support');
-    }
+    };
     const handleFeatures = () =>{
         navigate('/features');
-    }
+    };
     const handleResource = () =>{
         navigate('/resources');
-    }
+    };
+    const handleContact = () =>{
+        navigate('/contact');
+    };
     const handleClick = () =>{
         navigate('/');
-    }
+    };
 
 
     const drawer = (
@@ -90,17 +93,14 @@ export default function Navbar(props) {
                         >
                             <strong>Features</strong>
                         </Button>
-                        <Button key="Quotes" sx={{ color: 'black', textTransform: 'none', display: { xs: 'none', sm: 'block' }}}
-                        >
-                            <strong>Prizing</strong>
-                        </Button>
+
                         <Button key="social" sx={{ color: 'black', textTransform: 'none', display: { xs: 'none', sm: 'block' }}}
                                 onClick={handleResource}
                         >
                             <strong>Resources</strong>
                         </Button>
                         <Button key="contact" sx={{ color: 'black', textTransform: 'none', display: { xs: 'none', sm: 'block' }}}
-                                onClick={handleClick}
+                                onClick={handleContact}
                         >
                             <strong>Contact Us</strong>
                         </Button>
