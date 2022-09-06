@@ -93,7 +93,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div style={{backgroundColor:"#F1F1F1"}} className="text-center footer-bar ">
-                <div className="footer-end container ">
+                <div className="footer-end">
                     <p>Terms of Service</p>
                     <p>Privacy Notice</p>
                     <p>Takedown Policy</p>
