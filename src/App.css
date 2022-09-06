@@ -25,6 +25,11 @@
   flex-direction: row;
   gap:2rem;
 }
+.footer-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 @media only screen and (max-width: 600px){
   .footer{
@@ -37,11 +42,15 @@
   .footer-2{
     flex-direction: column;
     border-top: 1px solid gray;
+    margin-left: 3rem;
     padding-top: 1rem;
   }
   .footer-end{
     display: flex;
     flex-direction: column;
-    gap:2rem;
+    gap:0rem;
+  }
+  .footer-bar{
+    flex-direction: column;
   }
 }

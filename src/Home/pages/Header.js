@@ -18,7 +18,7 @@ export const Header = () => {
                         FREE TRIAL</strong></button>
                 </div>
                 <div>
-                    <img src={header} alt="header" style={{width:"40vw"}}/>
+                    <img src={header} alt="header" className="home-img"/>
                 </div>
             </div>
             <div style={{backgroundColor: "rgb(247,247,247)"}}>
