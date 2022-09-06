@@ -11,7 +11,9 @@ import Support from "./Componens/Support/Support";
 import Features from "./Componens/Features/Features";
 import Resources from "./Componens/Resources/Resources";
 import Contact from "./Componens/ContactUs/Contact";
+import Registration from "./Componens/Registration/Registration";
 import './App.css';
+
 
 
 function App() {
@@ -37,6 +39,9 @@ function App() {
                     />
                     <Route path="/contact"
                            element={<Contact/>}
+                    />
+                    <Route path="/registration"
+                           element={<Registration/>}
                     />
                 </Routes>
             </Router>
