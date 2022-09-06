@@ -3,9 +3,14 @@ import header from "../Images/header.PNG"
 import h1 from "../Images/h1.PNG";
 import h2 from "../Images/h2.PNG"
 import h3 from "../Images/h3.PNG"
-import "../Styles.css"
+import {useNavigate} from "react-router-dom";
+import "../Styles.css";
 
 export const Header = () => {
+    let navigate = useNavigate();
+    const handleOnClick = () =>{
+        navigate('/registration')
+    }
     return (
         <div>
             <div className="header container">
@@ -14,11 +19,13 @@ export const Header = () => {
                         service</h1>
                     <p style={{fontSize: "1.5vw"}}>Engage in more meaningful conversations every day, across every
                         channel, with every customer</p>
-                    <button className="btn p-3 my-2" style={{backgroundColor: "#5D35D7", color: "white"}}><strong>START
-                        FREE TRIAL</strong></button>
+                    <button className="btn p-3 my-2"
+                            style={{backgroundColor: "#5D35D7", color: "white"}}
+                            onClick={handleOnClick}
+                    ><strong>START FREE TRIAL</strong></button>
                 </div>
                 <div>
-                    <img src={header} alt="header" className="home-img"/>
+                    <img src={header} alt="header" style={{width:"40vw"}}/>
                 </div>
             </div>
             <div style={{backgroundColor: "rgb(247,247,247)"}}>
