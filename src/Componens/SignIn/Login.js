@@ -48,8 +48,8 @@ export const Login = () => {
                     <button className="btn p-2 my-2" type="submit" style={{backgroundColor: "#5D35D7", color: "white"}}><strong>PROCEED</strong></button>
                 </form>
             </div>
-            <div style={{backgroundColor:"#F1F1F1",height:"4rem"}} className="text-center d-flex align-items-center fixed-bottom">
-                <div className="d-flex gap-4 container ">
+            <div style={{backgroundColor:"#F1F1F1"}} className="text-center footer-bar ">
+                <div className="footer-end">
                     <p>Terms of Service</p>
                     <p>Privacy Notice</p>
                     <p>Takedown Policy</p>
